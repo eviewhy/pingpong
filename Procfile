@@ -1,1 +1,1 @@
-worker: npm start
+worker: node ping_pong.js
