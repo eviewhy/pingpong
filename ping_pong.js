@@ -159,4 +159,4 @@ bot.on('message', msg => {
          }
      }
 });
-bot.login("BOT_TOKEN");
+bot.login(prcoess.env.BOT_TOKEN);
