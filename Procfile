@@ -1,1 +1,1 @@
-worker: node ping-pong.js
+worker: node ping_pong.js
