@@ -6,11 +6,9 @@ bot.on('ready', () => {
     console.log("looged in");
 });
 
-bot.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'welcome');
-        if (!channel) {
-            msg.channel.send("hi "${member}"! welcome to a server where everyone can't believe you're so cute!! enjoy your new role as a cutie ;)");
-        };
+bot.on("guildMemberAdd", MemberAdd => {
+    MemberAdd.guild.channels.find("name", "general").send(`hey ${MemberAdd}, welcome to the cutie club!`)
+    console.log("enter"); });
 
 });
 
