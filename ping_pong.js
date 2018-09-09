@@ -6,12 +6,6 @@ bot.on('ready', () => {
     console.log("looged in");
 });
 
-bot.on("guildMemberAdd", MemberAdd => {
-    MemberAdd.guild.channels.find("name", "general").send(`hey ${MemberAdd}, welcome to the cutie club!`)
-    console.log("enter"); });
-
-});
-
 bot.on('message', msg => {
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!`
