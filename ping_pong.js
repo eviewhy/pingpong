@@ -5,6 +5,15 @@ const bot = new Discord.Client();
 bot.on('ready', () => {
     console.log("looged in");
 });
+
+bot.on('guildMemberAdd', member => {
+    let channel = member.guild.channels.find('name', 'welcome');
+        if (!channel) {
+            msg.channel.send("hi "${member}"! welcome to a server where everyone can't believe you're so cute!! enjoy your new role as a cutie ;)");
+        };
+
+});
+
 bot.on('message', msg => {
     // Our bot needs to know if it will execute a command
     // It will listen for messages that will start with `!`
