@@ -101,7 +101,7 @@ bot.on('message', msg => {
                 "I hate talking to people about things.",
                 "When life gives you lemons, you sell some of your grandma's jewelry and you go clubbin'.",
                 "I am big enough to admit that I'm often inspired by myself.",
-                "I have no idea what I'm doing, but I know I'm doin git well.",
+                "I have no idea what I'm doing, but I know I'm doing it well.",
                 "'Cause windows are the eyes to the house.",
                 "If there were more food and fewer people, this would be a perfect party.",
                 "Everything nurts and I'm dying.",
